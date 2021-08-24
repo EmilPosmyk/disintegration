@@ -25,7 +25,7 @@ setup(name='disintegration',
           ''',
       classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: Alien License",
         "Operating System :: OS Independent",
       ],
       # package_dir={"": "disintegration"},
