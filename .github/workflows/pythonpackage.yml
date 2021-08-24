@@ -37,11 +37,11 @@ jobs:
 
         runs-on: ubuntu-latest
 
-	steps:
+        steps:
         - uses: actions/checkout@v2
         - uses: akhileshns/heroku-deploy@v3.0.4 # This is the action
-          with:
-	    heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-            heroku_app_name: "disintegration-one" # Must be unique in Heroku
-	    heroku_email: ${{secrets.HEROKU_EMAIL}}
+            with:
+	        heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+                heroku_app_name: "disintegration-one" # Must be unique in Heroku
+                heroku_email: ${{secrets.HEROKU_EMAIL}}
 
