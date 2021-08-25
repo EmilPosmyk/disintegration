@@ -6,7 +6,7 @@ with open('requirements.txt') as f:
 requirements = [x.strip() for x in content if 'git+' not in x]
 
 setup(name='disintegration',
-      version="0.0.2",
+      version="0.0.3",
       author='Disintegrated persona n.g.',
       description="Reintegrating disintegrated ",
       packages=find_packages(),
